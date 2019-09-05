@@ -8,7 +8,7 @@
 > vi /etc/shadowsocks.json
 {
     "server": "0.0.0.0",
-    "server_port": 9399, 
+    "server_port": {port}, 
     "local_address": "127.0.0.1", 
     "local_port": 1099,
     "password": "password",
