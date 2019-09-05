@@ -91,7 +91,7 @@ url:  https://github.com/shadowsocks/v2ray-plugin/releases
 ```
 
 ## apply TLS certification
-> login cloudflare,chick your account,My Profile,API KEYs,Global API KEY
+> login cloudflare,click your account -> My Profile->API KEYs->Global API KEY
 copy your API KEY,and remember your CloundFlare email address.
 ```
 > export CF_Email="your CloundFlare email address"
