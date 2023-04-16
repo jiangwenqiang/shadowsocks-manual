@@ -1,4 +1,4 @@
-# install shadowsocks
+# install shadowsocks(deprecated)
 ```
 > yum install epel-release
 > yum install -y python-pip
@@ -129,7 +129,7 @@ WantedBy=multi-user.target
 ```
 > firewall-cmd --zone=public --add-port=443/tcp --permanent
 > firewall-cmd --reload
-> systemctl shadowsocks restart
+> systemctl restart shadowsocks 
 ```
 
 # shadowsocksx-ng(1.8.2)
